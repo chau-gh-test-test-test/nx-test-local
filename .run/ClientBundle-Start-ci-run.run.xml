@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ClientBundle-Start-ci-run" type="NodeJSConfigurationType" application-parameters="start-ci-run" path-to-js-file="node_modules/.bin/nx-cloud" working-dir="$PROJECT_DIR$">
+    <envs>
+      <env name="NX_BRANCH" value="2local-testing" />
+      <env name="NX_CI_EXECUTION_ID" value="1108" />
+      <env name="NX_CLOUD_DEBUG_URLS" value="true" />
+      <env name="NX_VERBOSE_LOGGING" value="true" />
+      <env name="NX_CLOUD_FORCE_REVALIDATE" value="true" />
+    </envs>
+    <method v="2" />
+  </configuration>
+</component>
