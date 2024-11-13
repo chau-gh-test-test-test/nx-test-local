@@ -1,13 +1,13 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
 import NxWelcome from './nx-welcome';
-import { Button } from '@nx-test-local/button';
+import { Icon } from '@nx-test-local/icon';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="nx-test-local" />
-      <Button />
+      <NxWelcome title="nested" />
+      <Icon />
     </div>
   );
 }
